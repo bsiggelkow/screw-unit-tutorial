@@ -1,0 +1,22 @@
+%html
+  %head
+    %title
+      Example 1
+    %script{ :src => "/scripts/jquery.js", :type => "text/javascript" }
+    %style{ :type => "text/css" }
+      div {
+      font-size: 5em
+      }
+    %script{ :type => "text/javascript" }
+      $(document).ready( function() {
+      $('#shrub').hide();
+      $('#bring').click( function(e) {$('#shrub').toggle()} );
+      });
+  %body
+    %h1
+      Test
+    %p
+      #bring
+        Bring us a ...
+      #shrub
+        shrubbery!
