@@ -1,0 +1,3 @@
+1. git clone git://github.com/pivotal/screw-unit.git
+2. cp screw-unit/lib/screw.* public/scripts/screwunit
+3. cp screw-unit/examples/spec public/spec

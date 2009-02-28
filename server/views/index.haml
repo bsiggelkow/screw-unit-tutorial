@@ -1,16 +1,16 @@
 %html
   %head
     %title
-      Example 1
+      ScrewUnit Examples
     %script{ :src => "/scripts/jquery.js", :type => "text/javascript" }
-    %style{ :type => "text/css" }
-      div {
-      font-size: 5em
-      }
-    %script{ :type => "text/javascript" }
+    %style{ :type => 'text/css'}
+      :sass
+        div
+          font-size: 5em
+    :javascript
       $(document).ready( function() {
-      $('#shrub').hide();
-      $('#bring').click( function(e) {$('#shrub').toggle()} );
+        $('#shrub').hide();
+        $('#bring').click( function(e) {$('#shrub').toggle()} );
       });
   %body
     %h1
