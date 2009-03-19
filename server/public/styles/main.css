@@ -1,0 +1,7 @@
+ul.menu {
+  list-style-type:none;
+}
+ul.menu li {
+  padding: 10px;
+  display:inline;
+}
