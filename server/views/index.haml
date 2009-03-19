@@ -3,6 +3,7 @@
     %title
       ScrewUnit Examples
     %script{ :src => "/scripts/jquery.js", :type => "text/javascript" }
+    %link{ :rel=> "stylesheet", :href => "/styles/screw.css" }
     %style{ :type => 'text/css'}
       :sass
         div
@@ -20,3 +21,8 @@
         Bring us a ...
       #shrub
         shrubbery!
+    %ol
+      - (1..5).each do |n|
+        %li
+          %a{:href => "/spec/suite#{n}.html"}
+            = "Suite #{n}"

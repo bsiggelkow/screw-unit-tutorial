@@ -1,5 +1,6 @@
 <html>
   <head>
+    <!-- Required Scripts for ScrewUnit -->
     <script src="/scripts/jquery.js"></script>
     <script src="/scripts/screwunit/jquery.fn.js"></script>
     <script src="/scripts/screwunit/jquery.print.js"></script>
@@ -7,24 +8,30 @@
     <script src="/scripts/screwunit/screw.matchers.js"></script>
     <script src="/scripts/screwunit/screw.events.js"></script>
     <script src="/scripts/screwunit/screw.behaviors.js"></script>
-    
+  
     <link rel="stylesheet" href="/styles/screw.css">
+    <link rel="stylesheet" href="/styles/main.css">
 
+    <!-- From the ScrewUnit example -->
     <script src="spec_helper.js"></script>
     <script src="matchers/have.js"></script>
-    
+  
     <!-- Scripts under test -->
     <script src="/scripts/foo.js"></script>
-    <script src="/scripts/index.js"></script>
-    
+  
     <!-- Specs -->
     <script src="/scripts/spec/foo_spec.js"></script>
-    <script src="/scripts/spec/index_spec.js"></script>
   </head>
   <body>
-    <div id="dom_test" style="position: absolute; left: -9999">
-      <div id='bring'>Bring</div>
-      <div id='shrub'>Shrub</div>            
-    </div>
+    <h1>Suite 3</h1>
+    <div id="dom_test" style="position: absolute; left: -9999"></div>
+    <ul class='menu'>
+      <li><a href='/'>Home</a></li>
+      <li><a href='suite1.html'>Suite 1</a></li>
+      <li><a href='suite2.html'>Suite 2</a></li>
+      <li><a href='suite3.html'>Suite 3</a></li>
+      <li><a href='suite4.html'>Suite 4</a></li>
+      <li><a href='suite5.html'>Suite 5</a></li>
+    </ul>
   </body>
 </html>
